@@ -1,0 +1,126 @@
+{
+    "doctype": "html",
+    "html": {
+      "lang": "en",
+      "head": {
+        "meta": [
+          {
+            "charset": "UTF-8"
+          },
+          {
+            "name": "viewport",
+            "content": "width=device-width, initial-scale=1.0"
+          }
+        ],
+        "title": "Shivalee Shukla - IT Recruiter Portfolio",
+        "style": {
+          "content": "body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; } header { background-color: #9798af; color: #ffffff; text-align: center; padding: 1rem; position: relative; overflow: hidden; } header::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(45deg, #ff9a9e, #fad0c4); opacity: 0.3; z-index: 1; } header h1, header p { position: relative; z-index: 2; } .container { width: 80%; margin: auto; overflow: hidden; padding: 20px; } section { background-color: #ffffff; margin-bottom: 20px; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: transform 0.3s ease; } section:hover { transform: translateY(-5px); } h1, h2 { color: #35424a; } .profile-img { width: 200px; height: 200px; border-radius: 50%; display: block; margin: 20px auto; object-fit: cover; border: 5px solid #35424a; transition: transform 0.3s ease; } .profile-img:hover { transform: scale(1.05); } .achievement { margin-bottom: 20px; padding: 10px; background-color: #f9f9f9; border-left: 4px solid #35424a; } footer { background-color: #35424a; color: #ffffff; text-align: center; padding: 1rem; position: relative; overflow: hidden; } footer::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(45deg, #ff9a9e, #fad0c4); opacity: 0.3; z-index: 1; } footer p { position: relative; z-index: 2; } .skill-tag { display: inline-block; background-color: #35424a; color: white; padding: 5px 10px; margin: 5px; border-radius: 15px; font-size: 0.9em; transition: background-color 0.3s ease; } .skill-tag:hover { background-color: #ff9a9e; } .contact-info { display: flex; justify-content: space-around; flex-wrap: wrap; } .contact-item { margin: 10px; padding: 10px; background-color: #f9f9f9; border-radius: 5px; text-align: center; transition: background-color 0.3s ease; } .contact-item:hover { background-color: #fad0c4; } .hidden { display: none; }"
+        }
+      },
+      "body": {
+        "header": {
+          "h1": "Shivalee Shukla",
+          "p": "IT Recruiter | Talent Acquisition Specialist"
+        },
+        "container": {
+          "sections": [
+            {
+              "id": "about",
+              "content": {
+                "img": {
+                  "src": "https://media.licdn.com/dms/image/v2/D5603AQE2BqByBiqWVQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727159251292?e=1734566400&v=beta&t=5DwmrcM-tVhzLrCHEudxD63CPuDEPUpgaxRKWE2BWss",
+                  "alt": "Shivalee Shukla",
+                  "class": "profile-img"
+                },
+                "h2": "About Me",
+                "p": "Hello! I'm Shivalee Shukla, a dedicated IT Recruiter currently working at Golden Technologies. With a passion for connecting top tech talent with innovative companies, I bring expertise in talent acquisition, industry trends, and building strong professional relationships. My goal is to create perfect matches between skilled professionals and exciting career opportunities in the IT sector."
+              }
+            },
+            {
+              "id": "skills",
+              "content": {
+                "h2": "Skills",
+                "skillTags": {
+                  "id": "skillTags"
+                }
+              }
+            },
+            {
+              "id": "experience",
+              "content": {
+                "h2": "Professional Experience",
+                "achievement": {
+                  "h3": "IT Recruiter - Golden Technologies",
+                  "p": "Current Position",
+                  "ul": [
+                    "Manage full-cycle recruitment process for IT roles across various technology stacks",
+                    "Collaborate with hiring managers to understand technical requirements and cultural fit",
+                    "Develop and implement innovative sourcing strategies to attract top tech talent",
+                    "Conduct initial screenings and coordinate technical interviews",
+                    "Maintain a robust pipeline of qualified candidates for current and future openings"
+                  ]
+                }
+              }
+            },
+            {
+              "id": "achievements",
+              "content": {
+                "h2": "Key Achievements",
+                "achievements": [
+                  {
+                    "h3": "Recruitment Drive Success",
+                    "p": "Led a successful recruitment drive that resulted in hiring 50+ IT professionals within a quarter, reducing time-to-fill by 30%."
+                  },
+                  {
+                    "h3": "Diversity Initiative",
+                    "p": "Spearheaded a diversity recruitment initiative that increased the representation of underrepresented groups in tech roles by 25%."
+                  },
+                  {
+                    "h3": "Employer Branding",
+                    "p": "Collaborated with marketing to enhance employer branding, resulting in a 40% increase in inbound applications for tech positions."
+                  }
+                ]
+              }
+            },
+            {
+              "id": "contact",
+              "content": {
+                "h2": "Contact Me",
+                "contactInfo": [
+                  {
+                    "h3": "Email",
+                    "p": {
+                      "a": {
+                        "href": "mailto:shuklashivalee@gmail.com",
+                        "text": "shuklashivalee@gmail.com"
+                      }
+                    }
+                  },
+                  {
+                    "h3": "Phone",
+                    "p": "8787080347"
+                  },
+                  {
+                    "h3": "LinkedIn",
+                    "p": {
+                      "a": {
+                        "href": "https://www.linkedin.com/in/shivaleeshukla",
+                        "target": "_blank",
+                        "text": "linkedin.com/in/shivaleeshukla"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "footer": {
+          "p": "© 2024 Shivalee Shukla. All rights reserved."
+        },
+        "script": {
+          "content": "const skills = ['Technical Recruiting', 'Talent Sourcing', 'Headhunting', 'Applicant Tracking Systems (ATS)', 'Interview Techniques', 'Employer Branding', 'Salary Negotiations', 'LinkedIn Recruiting', 'IT Market Knowledge', 'Candidate Relationship Management', 'Diversity and Inclusion in Hiring']; function addSkillTags() { const skillTags = document.getElementById('skillTags'); skills.forEach(skill => { const tag = document.createElement('span'); tag.className = 'skill-tag'; tag.textContent = skill; skillTags.appendChild(tag); }); } window.onload = addSkillTags; const sections = document.querySelectorAll('section'); sections.forEach(section => { section.addEventListener('mouseenter', () => { section.style.backgroundColor = '#f9f9f9'; }); section.addEventListener('mouseleave', () => { section.style.backgroundColor = '#ffffff'; }); }); const contactItems = document.querySelectorAll('.contact-item'); contactItems.forEach(item => { item.addEventListener('click', () => { const text = item.querySelector('p').textContent; navigator.clipboard.writeText(text).then(() => { alert('Copied to clipboard: ' + text); }); }); });"
+        }
+      }
+    }
+  }
